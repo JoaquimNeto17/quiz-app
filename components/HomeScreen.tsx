@@ -1,297 +1,163 @@
+import { Ionicons } from '@expo/vector-icons';
+import { router } from 'expo-router';
 import {
+  Pressable,
+  SafeAreaView,
+  StatusBar,
   StyleSheet,
   Text,
+  useWindowDimensions,
   View,
-  TouchableOpacity,
 } from 'react-native';
 
-type HomeScreenProps = {
-  totalQuestions: number;
-  questionTime: number;
-  onStart: () => void;
-};
+import questions from '../question.json';
 
-export default function HomeScreen({
-  totalQuestions,
-  questionTime,
-  onStart,
-}: HomeScreenProps) {
+type HistoryQuestionMeta = { category?: 'Brasil' | 'Mundo' };
+const questionBank = questions as unknown as HistoryQuestionMeta[];
+const brazilTotal = questionBank.filter((item) => item.category === 'Brasil').length;
+const worldTotal = questionBank.length - brazilTotal;
+
+const periods = [
+  ['Antiguidade', 'Civilizações e ideias'],
+  ['Brasil', 'Colônia, Império e República'],
+  ['Mundo moderno', 'Revoluções e transformações'],
+  ['Século XX', 'Conflitos e novos caminhos'],
+];
+
+export default function HomeScreen() {
+  const { width, height } = useWindowDimensions();
+  const desktop = width >= 900;
+  const compact = height < 700;
+
   return (
-    <View style={styles.container}>
-      <View style={styles.content}>
-        <View style={styles.badge}>
-          <View style={styles.badgeDot} />
-          <Text style={styles.badgeText}>Desafio de conhecimentos</Text>
-        </View>
-
-        <View style={styles.hero}>
-          <View style={styles.brandRow}>
-            <Text style={styles.brand}>Knowledge</Text>
-            <Text style={styles.brandAccent}>Lab</Text>
-          </View>
-
-          <Text style={styles.subtitle}>
-            Teste seus conhecimentos, construa sequências de acertos
-            e veja até onde você consegue chegar.
-          </Text>
-        </View>
-
-        <View style={styles.infoGrid}>
-          <View style={styles.infoCard}>
-            <Text style={styles.infoValue}>{totalQuestions}</Text>
-            <Text style={styles.infoLabel}>Perguntas</Text>
-          </View>
-
-          <View style={styles.infoCard}>
-            <Text style={styles.infoValue}>{questionTime}s</Text>
-            <Text style={styles.infoLabel}>Por questão</Text>
-          </View>
-
-          <View style={styles.infoCard}>
-            <Text style={styles.infoValue}>∞</Text>
-            <Text style={styles.infoLabel}>Sequência</Text>
-          </View>
-        </View>
-
-        <View style={styles.rulesCard}>
-          <Text style={styles.rulesTitle}>Como funciona</Text>
-
-          <View style={styles.ruleRow}>
-            <View style={styles.ruleNumber}>
-              <Text style={styles.ruleNumberText}>1</Text>
+    <SafeAreaView style={styles.safeArea}>
+      <StatusBar barStyle="dark-content" />
+      <View style={[styles.page, compact && styles.pageCompact]}>
+        <View style={styles.header}>
+          <View style={styles.brand}>
+            <View style={styles.mark}><Text style={styles.markText}>H</Text></View>
+            <View>
+              <Text style={styles.brandName}>HISTÓRIA EM JOGO</Text>
+              <Text style={styles.brandCaption}>BRASIL E MUNDO</Text>
             </View>
-            <Text style={styles.ruleText}>
-              Escolha uma resposta antes que o tempo termine.
-            </Text>
           </View>
-
-          <View style={styles.ruleRow}>
-            <View style={styles.ruleNumber}>
-              <Text style={styles.ruleNumberText}>2</Text>
-            </View>
-            <Text style={styles.ruleText}>
-              Acertos consecutivos aumentam sua sequência.
-            </Text>
-          </View>
-
-          <View style={styles.ruleRow}>
-            <View style={styles.ruleNumber}>
-              <Text style={styles.ruleNumberText}>3</Text>
-            </View>
-            <Text style={styles.ruleText}>
-              Tente terminar com a maior pontuação possível.
-            </Text>
-          </View>
+          <Text style={styles.headerNote}>{questionBank.length} QUESTÕES</Text>
         </View>
 
-        <TouchableOpacity
-          activeOpacity={0.82}
-          style={styles.startButton}
-          onPress={onStart}
-        >
-          <Text style={styles.startButtonText}>Iniciar quiz</Text>
-          <Text style={styles.startArrow}>›</Text>
-        </TouchableOpacity>
+        <View style={[styles.main, desktop && styles.mainDesktop]}>
+          <View style={[styles.hero, desktop && styles.heroDesktop]}>
+            <View style={styles.sectionLabelRow}>
+              <View style={styles.labelLine} />
+              <Text style={styles.sectionLabel}>QUIZ EDUCACIONAL</Text>
+            </View>
+            <Text style={[styles.title, !desktop && styles.titleMobile]}>
+              A história não está parada no passado.
+            </Text>
+            <Text style={styles.description}>
+              Explore acontecimentos do Brasil e do mundo, responda com atenção
+              e entenda o contexto de cada resposta.
+            </Text>
 
-        <Text style={styles.footerText}>
-          Conhecimento geral • História • Geografia • Ciências
-        </Text>
+            <View style={styles.numbers}>
+              <View>
+                <Text style={styles.number}>{brazilTotal}</Text>
+                <Text style={styles.numberLabel}>BRASIL</Text>
+              </View>
+              <View style={styles.numberDivider} />
+              <View>
+                <Text style={styles.number}>{worldTotal}</Text>
+                <Text style={styles.numberLabel}>MUNDO</Text>
+              </View>
+              <View style={styles.numberDivider} />
+              <View>
+                <Text style={styles.number}>20s</Text>
+                <Text style={styles.numberLabel}>TEMPO</Text>
+              </View>
+            </View>
+
+            <Pressable
+              accessibilityRole="button"
+              onPress={() => router.push('/quiz')}
+              style={({ pressed }) => [styles.startButton, pressed && styles.pressed]}
+            >
+              <Text style={styles.startButtonText}>Começar</Text>
+              <Ionicons color="#FFFFFF" name="arrow-forward" size={19} />
+            </Pressable>
+          </View>
+
+          {desktop ? (
+            <View style={styles.timelinePanel}>
+              <Text style={styles.timelineTitle}>Percurso da partida</Text>
+              <View style={styles.timelineRule} />
+              {periods.map(([period, description], index) => (
+                <View key={period} style={styles.periodRow}>
+                  <Text style={styles.periodNumber}>0{index + 1}</Text>
+                  <View style={styles.periodCopy}>
+                    <Text style={styles.periodName}>{period}</Text>
+                    <Text style={styles.periodDescription}>{description}</Text>
+                  </View>
+                </View>
+              ))}
+              <Text style={styles.panelFootnote}>
+                Perguntas embaralhadas e explicações após cada resposta.
+              </Text>
+            </View>
+          ) : (
+            <View style={styles.mobileNote}>
+              <Ionicons color="#9B3E32" name="time-outline" size={18} />
+              <Text style={styles.mobileNoteText}>Uma jornada rápida, sem rolagem.</Text>
+            </View>
+          )}
+        </View>
+
+        <View style={styles.footer}>
+          <Text style={styles.footerText}>CONHECER O PASSADO. COMPREENDER O PRESENTE.</Text>
+          <Text style={styles.footerText}>JOAQUIM NETO</Text>
+        </View>
       </View>
-    </View>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#F4F7FB',
-    paddingHorizontal: 20,
-    paddingVertical: 28,
-  },
-
-  content: {
-    flex: 1,
-    width: '100%',
-    maxWidth: 820,
-    alignSelf: 'center',
-    justifyContent: 'center',
-  },
-
-  badge: {
-    alignSelf: 'flex-start',
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#EAF1FA',
-    borderWidth: 1,
-    borderColor: '#CBD9EA',
-    borderRadius: 8,
-    paddingHorizontal: 14,
-    paddingVertical: 8,
-    marginBottom: 22,
-  },
-
-  badgeDot: {
-    width: 7,
-    height: 7,
-    borderRadius: 4,
-    backgroundColor: '#F47C20',
-    marginRight: 8,
-  },
-
-  badgeText: {
-    color: '#214E7A',
-    fontSize: 10,
-    fontWeight: '800',
-    letterSpacing: 0.4,
-  },
-
-  hero: {
-    marginBottom: 28,
-  },
-
-  brandRow: {
-    flexDirection: 'row',
-    alignItems: 'baseline',
-    flexWrap: 'wrap',
-    gap: 10,
-  },
-
-  brand: {
-    color: '#17324D',
-    fontSize: 46,
-    lineHeight: 49,
-    fontWeight: '800',
-    letterSpacing: -1.2,
-  },
-
-  brandAccent: {
-    color: '#F47C20',
-    fontSize: 46,
-    lineHeight: 49,
-    fontWeight: '800',
-    letterSpacing: -1.2,
-  },
-
-  subtitle: {
-    color: '#5B6B7C',
-    fontSize: 17,
-    lineHeight: 26,
-    fontWeight: '500',
-    maxWidth: 610,
-    marginTop: 16,
-  },
-
-  infoGrid: {
-    flexDirection: 'row',
-    gap: 12,
-    marginBottom: 18,
-  },
-
-  infoCard: {
-    flex: 1,
-    minHeight: 100,
-    backgroundColor: '#FFFFFF',
-    borderWidth: 1,
-    borderColor: '#D9E2EC',
-    borderRadius: 12,
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingHorizontal: 12,
-  },
-
-  infoValue: {
-    color: '#17324D',
-    fontSize: 28,
-    fontWeight: '800',
-  },
-
-  infoLabel: {
-    color: '#66788A',
-    fontSize: 9,
-    fontWeight: '700',
-    letterSpacing: 0.2,
-    marginTop: 6,
-    textAlign: 'center',
-  },
-
-  rulesCard: {
-    backgroundColor: '#FFFFFF',
-    borderWidth: 1,
-    borderColor: '#D9E2EC',
-    borderRadius: 12,
-    padding: 20,
-    marginBottom: 20,
-  },
-
-  rulesTitle: {
-    color: '#17324D',
-    fontSize: 15,
-    fontWeight: '800',
-    letterSpacing: 0,
-    marginBottom: 16,
-  },
-
-  ruleRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    marginBottom: 13,
-  },
-
-  ruleNumber: {
-    width: 30,
-    height: 30,
-    borderRadius: 8,
-    backgroundColor: '#FFF1E6',
-    borderWidth: 1,
-    borderColor: '#F6B27C',
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginRight: 12,
-  },
-
-  ruleNumberText: {
-    color: '#C85200',
-    fontSize: 13,
-    fontWeight: '800',
-  },
-
-  ruleText: {
-    flex: 1,
-    color: '#34495E',
-    fontSize: 14,
-    lineHeight: 20,
-    fontWeight: '500',
-  },
-
-  startButton: {
-    minHeight: 62,
-    backgroundColor: '#F47C20',
-    borderRadius: 10,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingHorizontal: 22,
-  },
-
-  startButtonText: {
-    color: '#FFFFFF',
-    fontSize: 18,
-    fontWeight: '800',
-  },
-
-  startArrow: {
-    color: '#FFFFFF',
-    fontSize: 31,
-    fontWeight: '500',
-    marginLeft: 10,
-    marginTop: -2,
-  },
-
-  footerText: {
-    color: '#748494',
-    fontSize: 11,
-    fontWeight: '700',
-    textAlign: 'center',
-    marginTop: 16,
-  },
+  safeArea: { backgroundColor: '#F3EFE6', flex: 1 },
+  page: { flex: 1, marginHorizontal: 'auto', maxWidth: 1280, padding: 30, width: '100%' },
+  pageCompact: { paddingVertical: 18 },
+  header: { alignItems: 'center', borderBottomColor: '#D7D0C3', borderBottomWidth: 1, flexDirection: 'row', justifyContent: 'space-between', paddingBottom: 15 },
+  brand: { alignItems: 'center', flexDirection: 'row', gap: 11 },
+  mark: { alignItems: 'center', backgroundColor: '#17324D', height: 42, justifyContent: 'center', width: 42 },
+  markText: { color: '#F3EFE6', fontFamily: 'serif', fontSize: 23, fontWeight: '900' },
+  brandName: { color: '#17324D', fontSize: 14, fontWeight: '900', letterSpacing: 1.2 },
+  brandCaption: { color: '#9B3E32', fontSize: 8, fontWeight: '800', letterSpacing: 1.8, marginTop: 2 },
+  headerNote: { color: '#6C7378', fontSize: 9, fontWeight: '800', letterSpacing: 1.1 },
+  main: { flex: 1, justifyContent: 'center' },
+  mainDesktop: { alignItems: 'center', flexDirection: 'row', gap: 80, justifyContent: 'space-between' },
+  hero: { maxWidth: 650 },
+  heroDesktop: { flex: 1 },
+  sectionLabelRow: { alignItems: 'center', flexDirection: 'row', gap: 10 },
+  labelLine: { backgroundColor: '#9B3E32', height: 2, width: 28 },
+  sectionLabel: { color: '#9B3E32', fontSize: 9, fontWeight: '900', letterSpacing: 1.7 },
+  title: { color: '#17324D', fontFamily: 'serif', fontSize: 55, fontWeight: '800', letterSpacing: -1.3, lineHeight: 60, marginTop: 15 },
+  titleMobile: { fontSize: 38, lineHeight: 43 },
+  description: { color: '#58656D', fontSize: 16, lineHeight: 25, marginTop: 16, maxWidth: 560 },
+  numbers: { alignItems: 'center', flexDirection: 'row', marginTop: 23 },
+  number: { color: '#17324D', fontSize: 21, fontWeight: '900' },
+  numberLabel: { color: '#7F8588', fontSize: 8, fontWeight: '800', letterSpacing: 1, marginTop: 2 },
+  numberDivider: { backgroundColor: '#D2C9BB', height: 34, marginHorizontal: 20, width: 1 },
+  startButton: { alignItems: 'center', alignSelf: 'flex-start', backgroundColor: '#9B3E32', flexDirection: 'row', gap: 18, marginTop: 25, minHeight: 50, paddingHorizontal: 22 },
+  startButtonText: { color: '#FFFFFF', fontSize: 14, fontWeight: '900' },
+  pressed: { opacity: 0.76 },
+  timelinePanel: { borderLeftColor: '#9B3E32', borderLeftWidth: 3, maxWidth: 390, paddingLeft: 30, width: '36%' },
+  timelineTitle: { color: '#17324D', fontFamily: 'serif', fontSize: 24, fontWeight: '800' },
+  timelineRule: { backgroundColor: '#D7D0C3', height: 1, marginBottom: 10, marginTop: 11 },
+  periodRow: { alignItems: 'center', borderBottomColor: '#DDD6CA', borderBottomWidth: 1, flexDirection: 'row', paddingVertical: 11 },
+  periodNumber: { color: '#9B3E32', fontFamily: 'serif', fontSize: 18, fontWeight: '800', width: 40 },
+  periodCopy: { flex: 1 },
+  periodName: { color: '#17324D', fontSize: 13, fontWeight: '800' },
+  periodDescription: { color: '#7A7F81', fontSize: 10, marginTop: 2 },
+  panelFootnote: { color: '#6E7578', fontSize: 10, lineHeight: 15, marginTop: 13 },
+  mobileNote: { alignItems: 'center', borderTopColor: '#D7D0C3', borderTopWidth: 1, flexDirection: 'row', gap: 8, marginTop: 22, paddingTop: 13 },
+  mobileNoteText: { color: '#6E7578', fontSize: 11, fontWeight: '600' },
+  footer: { borderTopColor: '#D7D0C3', borderTopWidth: 1, flexDirection: 'row', justifyContent: 'space-between', paddingTop: 13 },
+  footerText: { color: '#8A8E90', fontSize: 7, fontWeight: '800', letterSpacing: 1.1 },
 });

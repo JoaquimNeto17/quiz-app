@@ -1,7 +1,7 @@
-import QuizScreen from '../components/QuizScreen';
+import HomeScreen from '../components/HomeScreen';
 
 const HomePage = () => {
-  return <QuizScreen />;
+  return <HomeScreen />;
 };
 
 export default HomePage;

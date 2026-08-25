@@ -1,512 +1,452 @@
 [
   {
-    "question": "Qual é o menor osso do corpo humano?",
-    "options": ["Fêmur", "Estribo", "Rádio", "Tíbia"],
-    "correctAnswer": "Estribo"
-  },
-  {
-    "question": "Qual animal é conhecido como o 'rei da selva'?",
-    "options": ["Elefante", "Tigre", "Leão", "Gorila"],
-    "correctAnswer": "Leão"
-  },
-  {
-    "question": "Quantos dias tem um ano bissexto?",
-    "options": ["364", "365", "366", "367"],
-    "correctAnswer": "366"
-  },
-  {
-    "question": "Qual é a cor do céu em um dia limpo?",
-    "options": ["Verde", "Azul", "Vermelho", "Amarelo"],
-    "correctAnswer": "Azul"
-  },
-  {
-    "question": "Qual alimento é produzido pelas abelhas?",
-    "options": ["Leite", "Mel", "Cera", "Pólen"],
-    "correctAnswer": "Mel"
-  },
-  {
-    "question": "Qual é o formato da Terra?",
-    "options": ["Plana", "Cúbica", "Esférica", "Cilíndrica"],
-    "correctAnswer": "Esférica"
-  },
-  {
-    "question": "Qual é o principal meio de transporte aquático?",
-    "options": ["Avião", "Navio", "Trem", "Carro"],
-    "correctAnswer": "Navio"
-  },
-  {
-    "question": "Quantas patas tem um cachorro?",
-    "options": ["2", "3", "4", "5"],
-    "correctAnswer": "4"
-  },
-  {
-    "question": "Qual é a fruta mais conhecida como 'maçã do amor'?",
-    "options": ["Uva", "Morango", "Maçã", "Pera"],
-    "correctAnswer": "Maçã"
-  },
-  {
-    "question": "Qual é o nome da estrela mais próxima da Terra?",
-    "options": ["Lua", "Sol", "Vênus", "Marte"],
-    "correctAnswer": "Sol"
-  },
-  {
-    "question": "Qual sentido está associado aos olhos?",
-    "options": ["Audição", "Tato", "Visão", "Paladar"],
-    "correctAnswer": "Visão"
-  },
-  {
-    "question": "Qual instrumento usamos para ver estrelas distantes?",
-    "options": ["Microscópio", "Telescópio", "Estetoscópio", "Periscópio"],
-    "correctAnswer": "Telescópio"
-  },
-  {
-    "question": "Qual é o nome da nossa galáxia?",
-    "options": ["Andrômeda", "Via Láctea", "Triângulo", "Sombrero"],
-    "correctAnswer": "Via Láctea"
-  },
-  {
-    "question": "Qual é o esporte mais popular do mundo?",
-    "options": ["Basquete", "Vôlei", "Futebol", "Tênis"],
-    "correctAnswer": "Futebol"
-  },
-  {
-    "question": "Qual órgão é responsável por bombear o sangue?",
-    "options": ["Pulmão", "Fígado", "Coração", "Rim"],
-    "correctAnswer": "Coração"
-  },
-  {
-    "question": "Qual é a primeira letra do alfabeto?",
-    "options": ["B", "A", "C", "D"],
-    "correctAnswer": "A"
-  },
-  {
-    "question": "Qual é o animal mais rápido da terra?",
-    "options": ["Leão", "Guepardo", "Cavalo", "Coelho"],
-    "correctAnswer": "Guepardo"
-  },
-  {
-    "question": "Qual estação do ano vem depois do inverno?",
-    "options": ["Verão", "Outono", "Primavera", "Inverno"],
-    "correctAnswer": "Primavera"
-  },
-  {
-    "question": "Qual é o número de dias da semana?",
-    "options": ["5", "6", "7", "8"],
-    "correctAnswer": "7"
-  },
-  {
-    "question": "Qual parte do corpo usamos para cheirar?",
-    "options": ["Ouvido", "Nariz", "Boca", "Pele"],
-    "correctAnswer": "Nariz"
-  },
-  {
-    "question": "Qual cidade é conhecida como a 'Cidade Luz'?",
-    "options": ["Londres", "Roma", "Paris", "Barcelona"],
-    "correctAnswer": "Paris"
-  },
-  {
-    "question": "Em qual idioma foi escrita a obra 'Dom Quixote'?",
-    "options": ["Italiano", "Inglês", "Espanhol", "Francês"],
-    "correctAnswer": "Espanhol"
-  },
-  {
-    "question": "Qual é o maior osso do corpo humano?",
-    "options": ["Tíbia", "Fêmur", "Úmero", "Rádio"],
-    "correctAnswer": "Fêmur"
-  },
-  {
-    "question": "Qual país tem a maior população do mundo?",
-    "options": ["EUA", "Índia", "Indonésia", "Brasil"],
-    "correctAnswer": "Índia"
-  },
-  {
-    "question": "Quem foi o primeiro presidente dos Estados Unidos?",
-    "options": ["Abraham Lincoln", "Thomas Jefferson", "George Washington", "John Adams"],
-    "correctAnswer": "George Washington"
-  },
-  {
-    "question": "Qual é o maior animal do planeta?",
-    "options": ["Elefante", "Tubarão-baleia", "Baleia-azul", "Orca"],
-    "correctAnswer": "Baleia-azul"
-  },
-  {
-    "question": "Qual é o ponto mais frio da Terra?",
-    "options": ["Sibéria", "Alasca", "Antártida", "Islândia"],
-    "correctAnswer": "Antártida"
-  },
-  {
-    "question": "Qual é o nome do maior vulcão ativo do mundo?",
-    "options": ["Vesúvio", "Krakatoa", "Mauna Loa", "Fuji"],
-    "correctAnswer": "Mauna Loa"
-  },
-  {
-    "question": "Em qual país fica a Torre Eiffel?",
-    "options": ["Itália", "Alemanha", "França", "Espanha"],
-    "correctAnswer": "França"
-  },
-  {
-    "question": "Qual é a principal fonte de energia utilizada nas usinas nucleares?",
-    "options": ["Carvão", "Gás", "Urânio", "Petróleo"],
-    "correctAnswer": "Urânio"
-  },
-  {
-    "question": "Quem inventou a lâmpada elétrica?",
-    "options": ["Nikola Tesla", "Albert Einstein", "Thomas Edison", "Graham Bell"],
-    "correctAnswer": "Thomas Edison"
-  },
-  {
-    "question": "Qual é a maior floresta tropical do mundo?",
-    "options": ["Congo", "Amazônia", "Bornéu", "Sumatra"],
-    "correctAnswer": "Amazônia"
-  },
-  {
-    "question": "Qual país tem a forma de uma bota?",
-    "options": ["Espanha", "Itália", "França", "Grécia"],
-    "correctAnswer": "Itália"
-  },
-  {
-    "question": "Qual elemento químico é necessário para a respiração humana?",
-    "options": ["Nitrogênio", "Oxigênio", "Carbono", "Hidrogênio"],
-    "correctAnswer": "Oxigênio"
-  },
-  {
-    "question": "Qual é o maior lago de água doce do mundo em volume?",
-    "options": ["Lago Vitória", "Lago Baikal", "Lago Superior", "Mar Cáspio"],
-    "correctAnswer": "Lago Baikal"
-  },
-  {
-    "question": "Qual foi o primeiro satélite artificial lançado ao espaço?",
-    "options": ["Explorer 1", "Sputnik 1", "Apollo 11", "Voyager 1"],
-    "correctAnswer": "Sputnik 1"
-  },
-  {
-    "question": "Qual é a principal religião da Índia?",
-    "options": ["Budismo", "Islamismo", "Hinduísmo", "Cristianismo"],
-    "correctAnswer": "Hinduísmo"
-  },
-  {
-    "question": "Quem pintou o teto da Capela Sistina?",
-    "options": ["Leonardo da Vinci", "Michelangelo", "Rafael", "Donatello"],
-    "correctAnswer": "Michelangelo"
-  },
-  {
-    "question": "Qual é o nome do maior oceano da Terra?",
-    "options": ["Atlântico", "Índico", "Pacífico", "Glacial Ártico"],
-    "correctAnswer": "Pacífico"
-  },
-  {
-    "question": "Qual é o animal símbolo do Canadá?",
-    "options": ["Urso-pardo", "Lobo", "Castor", "Alce"],
-    "correctAnswer": "Castor"
-  },
-  {
-    "question": "Em que país se encontra a depressão mais profunda da Terra emersa (Mar Morto)?",
-    "options": ["Israel", "Egito", "Turquia", "Jordânia"],
-    "correctAnswer": "Jordânia"
-  },
-  {
-    "question": "Qual é o único planeta anão que possui uma órbita maior que a de Netuno?",
-    "options": ["Ceres", "Eris", "Haumea", "Plutão"],
-    "correctAnswer": "Eris"
-  },
-  {
-    "question": "Qual foi a primeira dinastia a unificar o Egito Antigo?",
-    "options": ["Dinastia IV", "Dinastia I", "Dinastia XVIII", "Dinastia Ptolomaica"],
-    "correctAnswer": "Dinastia I"
-  },
-  {
-    "question": "Qual é o nome da partícula subatômica que possui carga positiva?",
-    "options": ["Elétron", "Nêutron", "Próton", "Pósitron"],
-    "correctAnswer": "Próton"
-  },
-  {
-    "question": "Qual é o ponto mais alto da África?",
-    "options": ["Monte Camarões", "Monte Quênia", "Monte Kilimanjaro", "Monte Ras Dashen"],
-    "correctAnswer": "Monte Kilimanjaro"
-  },
-  {
-    "question": "Qual é o maior império da história em extensão territorial contínua?",
-    "options": ["Império Romano", "Império Mongol", "Império Britânico", "Império Russo"],
-    "correctAnswer": "Império Mongol"
-  },
-  {
-    "question": "Qual cientista descobriu a penicilina?",
-    "options": ["Louis Pasteur", "Alexander Fleming", "Robert Koch", "Joseph Lister"],
-    "correctAnswer": "Alexander Fleming"
-  },
-  {
-    "question": "Qual é a moeda oficial do Japão?",
-    "options": ["Won", "Yuan", "Iene", "Ringgit"],
-    "correctAnswer": "Iene"
-  },
-  {
-    "question": "Em qual cidade aconteceu a Conferência de Potsdam em 1945?",
-    "options": ["Berlim", "Potsdam", "Viena", "Moscou"],
-    "correctAnswer": "Potsdam"
-  },
-  {
-    "question": "Qual é a montanha mais alta fora da Ásia?",
-    "options": ["Monte Aconcágua", "Monte McKinley", "Monte Kilimanjaro", "Monte Elbrus"],
-    "correctAnswer": "Monte Aconcágua"
-  },
-  {
-    "question": "Quem criou o primeiro reator nuclear?",
-    "options": ["Enrico Fermi", "Robert Oppenheimer", "Niels Bohr", "Ernest Rutherford"],
-    "correctAnswer": "Enrico Fermi"
-  },
-  {
-    "question": "Qual é a língua mais antiga ainda falada no mundo?",
-    "options": ["Chinês", "Sânscrito", "Tâmil", "Hebraico"],
-    "correctAnswer": "Tâmil"
-  },
-  {
-    "question": "Qual é o único país que possui um litoral no Oceano Pacífico, Índico e Austral?",
-    "options": ["Chile", "Indonésia", "Austrália", "África do Sul"],
-    "correctAnswer": "Indonésia"
-  },
-  {
-    "question": "Qual é o elemento químico mais comum no universo?",
-    "options": ["Oxigênio", "Carbono", "Nitrogênio", "Hidrogênio"],
-    "correctAnswer": "Hidrogênio"
-  },
-  {
-    "question": "Quem foi o primeiro faraó do Egito Unificado?",
-    "options": ["Ramsés II", "Tutancâmon", "Narmer (Menés)", "Khufu"],
-    "correctAnswer": "Narmer (Menés)"
-  },
-  {
-    "question": "Qual cientista propôs a teoria heliocêntrica antes de Copérnico?",
-    "options": ["Ptolomeu", "Hiparco", "Aristarco de Samos", "Eratóstenes"],
-    "correctAnswer": "Aristarco de Samos"
-  },
-  {
-    "question": "Qual país tem a maior quantidade de vulcões ativos?",
-    "options": ["Japão", "Indonésia", "Islândia", "Chile"],
-    "correctAnswer": "Indonésia"
-  },
-  {
-    "question": "Qual é o único mamífero marinho que vive em água doce?",
-    "options": ["Foca", "Peixe-boi", "Golfinho do Amazonas", "Baleia branca"],
-    "correctAnswer": "Golfinho do Amazonas"
-  },
-  {
-    "question": "Qual é a maior estrutura viva do mundo?",
-    "options": ["Floresta de algas", "Grande Barreira de Corais", "Floresta Amazônica", "Manguezais de Sundarbans"],
-    "correctAnswer": "Grande Barreira de Corais"
-  },
-  {
-    "question": "Qual filósofo grego afirmou que 'o homem é a medida de todas as coisas'?",
-    "options": ["Protágoras", "Górgias", "Platão", "Parmênides"],
-    "correctAnswer": "Protágoras"
-  },
-  {
-    "question": "Qual é a velocidade média do som no ar a 20°C?",
-    "options": ["243 m/s", "343 m/s", "443 m/s", "543 m/s"],
-    "correctAnswer": "343 m/s"
-  },
-  {
-    "question": "Qual foi a primeira civilização a utilizar a roda?",
-    "options": ["Egípcios", "Sumérios", "Chineses", "Indus"],
-    "correctAnswer": "Sumérios"
-  },
-  {
-    "question": "Qual é o maior gato selvagem da América do Sul?",
-    "options": ["Jaguatirica", "Puma", "Onça-pintada", "Lince"],
-    "correctAnswer": "Onça-pintada"
-  },
-  {
-    "question": "Qual é o ponto mais baixo da América do Norte?",
-    "options": ["Vale da Morte", "Mar Morto", "Grand Canyon", "Depressão de Danakil"],
-    "correctAnswer": "Vale da Morte"
-  },
-  {
-    "question": "Qual foi o primeiro ser vivo a orbitar a Terra?",
-    "options": ["Cão Laika", "Macaco Albert", "Cosmonauta Gagarin", "Cachorro Belka"],
-    "correctAnswer": "Cão Laika"
-  },
-  {
-    "question": "Qual é a única serpente que constrói ninho para seus ovos?",
-    "options": ["Cobra-rei", "Píton", "Cascavel", "Mamba-negra"],
-    "correctAnswer": "Cobra-rei"
-  },
-  {
-    "question": "Em que país nasceu o tango?",
-    "options": ["Brasil", "Argentina", "Uruguai", "Espanha"],
-    "correctAnswer": "Argentina"
-  },
-  {
-    "question": "Qual é o menor continente do mundo?",
-    "options": ["Europa", "Austrália", "Antártida", "África"],
-    "correctAnswer": "Austrália"
-  },
-  {
-    "question": "Qual é o maior palácio do mundo em área?",
-    "options": ["Palácio de Buckingham", "Palácio de Versalhes", "Cidade Proibida", "Palácio de Topkapi"],
-    "correctAnswer": "Cidade Proibida"
-  },
-  {
-    "question": "Qual cientista criou a primeira vacina da história?",
-    "options": ["Louis Pasteur", "Edward Jenner", "Robert Koch", "Jonas Salk"],
-    "correctAnswer": "Edward Jenner"
-  },
-  {
-    "question": "Qual é o animal mais alto do mundo?",
-    "options": ["Elefante", "Girafa", "Rinoceronte", "Alce"],
-    "correctAnswer": "Girafa"
-  },
-  {
-    "question": "Qual país tem o maior número de fusos horários?",
-    "options": ["Rússia", "EUA", "França", "China"],
-    "correctAnswer": "França"
-  },
-  {
-    "question": "Quem foi o último imperador do Brasil?",
-    "options": ["Dom Pedro I", "Dom Pedro II", "Dom João VI", "Dom Miguel"],
-    "correctAnswer": "Dom Pedro II"
-  },
-  {
-    "question": "Qual é a maior cachoeira do mundo em volume de água?",
-    "options": ["Cataratas do Niágara", "Cataratas Vitória", "Cataratas do Iguaçu", "Salto Ángel"],
-    "correctAnswer": "Cataratas do Iguaçu"
-  },
-  {
-    "question": "Qual país foi o primeiro a adotar o voto feminino?",
-    "options": ["EUA", "Reino Unido", "Nova Zelândia", "Canadá"],
-    "correctAnswer": "Nova Zelândia"
-  },
-  {
-    "question": "Qual é o maior carnívoro terrestre do mundo?",
-    "options": ["Urso-polar", "Leão", "Tigre-siberiano", "Urso-kodiak"],
-    "correctAnswer": "Urso-polar"
-  },
-  {
-    "question": "Qual é o único alimento que não estraga com o tempo?",
-    "options": ["Sal", "Mel", "Açúcar", "Vinagre"],
-    "correctAnswer": "Mel"
-  },
-  {
-    "question": "Em qual país está localizada a cidade de Cartago?",
-    "options": ["Grécia", "Itália", "Tunísia", "Argélia"],
-    "correctAnswer": "Tunísia"
-  },
-  {
-    "question": "Qual é o maior templo religioso do mundo?",
-    "options": ["Templo de Angkor Wat", "Catedral de São Pedro", "Templo do Céu", "Mesquita de Meca"],
-    "correctAnswer": "Templo de Angkor Wat"
-  },
-  {
-    "question": "Qual elemento químico possui o símbolo 'W'?",
-    "options": ["Tungstênio", "Oxigênio", "Hidrogênio", "Sódio"],
-    "correctAnswer": "Tungstênio"
-  },
-  {
-    "question": "Qual é o menor pássaro do mundo?",
-    "options": ["Beija-flor-abelha", "Pintassilgo", "Chapim", "Estorninho"],
-    "correctAnswer": "Beija-flor-abelha"
-  },
-  {
-    "question": "Quem foi o fundador do Império Mongol?",
-    "options": ["Kublai Khan", "Gengis Khan", "Tamerlão", "Átila"],
-    "correctAnswer": "Gengis Khan"
-  },
-  {
-    "question": "Qual é a maior planície do mundo?",
-    "options": ["Planície Siberiana", "Planície do Ganges", "Planície Europeia", "Planície Amazônica"],
-    "correctAnswer": "Planície Siberiana"
-  },
-  {
-    "question": "Qual é o único país que pertence a todos os continentes?",
-    "options": ["Rússia", "França", "Reino Unido", "EUA"],
-    "correctAnswer": "França"
-  },
-  {
-    "question": "Qual foi a primeira mulher a ganhar um Prêmio Nobel?",
-    "options": ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Florence Nightingale"],
-    "correctAnswer": "Marie Curie"
-  },
-  {
-    "question": "Qual é o maior deserto de gelo do mundo?",
-    "options": ["Groenlândia", "Antártida", "Ártico", "Siberia"],
-    "correctAnswer": "Antártida"
-  },
-  {
-    "question": "Qual é o rio mais longo da Europa?",
-    "options": ["Rio Danúbio", "Rio Volga", "Rio Reno", "Rio Sena"],
-    "correctAnswer": "Rio Volga"
-  },
-  {
-    "question": "Quem escreveu a obra 'A Divina Comédia'?",
-    "options": ["Dante Alighieri", "Petrarca", "Boccaccio", "Ariosto"],
-    "correctAnswer": "Dante Alighieri"
-  },
-  {
-    "question": "Qual é a maior ilha do mundo?",
-    "options": ["Madagáscar", "Groenlândia", "Borneu", "Nova Guiné"],
-    "correctAnswer": "Groenlândia"
-  },
-  {
-    "question": "Qual é o único mamífero que põe ovos?",
-    "options": ["Morcego", "Ornitorrinco", "Golfinho", "Coala"],
-    "correctAnswer": "Ornitorrinco"
-  },
-  {
-    "question": "Em qual país foi inventado o papel?",
-    "options": ["Índia", "China", "Egito", "Grécia"],
-    "correctAnswer": "China"
-  },
-  {
-    "question": "Qual é o maior estádio de futebol do mundo?",
-    "options": ["Maracanã", "Wembley", "Estádio de Rungrado", "Camp Nou"],
-    "correctAnswer": "Estádio de Rungrado"
-  },
-  {
-    "question": "Qual é a flor nacional do Brasil?",
-    "options": ["Rosa", "Orquídea", "Cacto", "Hortênsia"],
-    "correctAnswer": "Orquídea"
-  },
-  {
-    "question": "Qual foi a primeira moeda a ser usada no mundo?",
-    "options": ["Dólar", "Libra", "Shekel", "Dracma"],
-    "correctAnswer": "Shekel"
-  },
-  {
-    "question": "Qual é o maior museu de arte do mundo?",
-    "options": ["Louvre", "Museu Britânico", "Metropolitan", "Hermitage"],
-    "correctAnswer": "Louvre"
-  },
-  {
-    "question": "Qual é o único planeta sem atmosfera significativa?",
-    "options": ["Mercúrio", "Lua", "Vênus", "Marte"],
-    "correctAnswer": "Mercúrio"
-  },
-  {
-    "question": "Qual foi a primeira universidade do mundo?",
-    "options": ["Universidade de Bolonha", "Universidade de Al-Karaouine", "Universidade de Oxford", "Universidade de Salamanca"],
-    "correctAnswer": "Universidade de Al-Karaouine"
-  },
-  {
-    "question": "Qual é o maior animal voador da história?",
-    "options": ["Quetzalcoatlus", "Pteranodonte", "Águia-real", "Albatroz"],
-    "correctAnswer": "Quetzalcoatlus"
-  },
-  {
-    "question": "Qual país tem a maior expectativa de vida do mundo?",
-    "options": ["Japão", "Suíça", "Mônaco", "Singapura"],
-    "correctAnswer": "Mônaco"
-  },
-  {
-    "question": "Qual é o filme mais premiado da história do Oscar?",
-    "options": ["Titanic", "Ben-Hur", "O Senhor dos Anéis", "Avatar"],
-    "correctAnswer": "O Senhor dos Anéis"
-  },
-  {
-    "question": "Qual é o maior produtor de café do mundo?",
-    "options": ["Colômbia", "Vietnã", "Brasil", "Etiópia"],
-    "correctAnswer": "Brasil"
-  },
-  {
-    "question": "Qual é a única cidade do mundo localizada em dois continentes?",
-    "options": ["Istambul", "Moscou", "Cairo", "Baku"],
-    "correctAnswer": "Istambul"
+    "category": "Brasil",
+    "period": "Brasil Colônia",
+    "difficulty": "Fácil",
+    "question": "Em que ano os portugueses chegaram ao território que hoje é o Brasil?",
+    "options": ["1492", "1500", "1530", "1549"],
+    "correctAnswer": "1500",
+    "explanation": "A expedição comandada por Pedro Álvares Cabral chegou ao território em abril de 1500."
+  },
+  {
+    "category": "Brasil",
+    "period": "Brasil Colônia",
+    "difficulty": "Fácil",
+    "question": "Quem comandou a expedição portuguesa que chegou ao Brasil em 1500?",
+    "options": ["Vasco da Gama", "Pedro Álvares Cabral", "Bartolomeu Dias", "Martim Afonso de Sousa"],
+    "correctAnswer": "Pedro Álvares Cabral",
+    "explanation": "Cabral liderou a frota portuguesa que chegou ao litoral sul da atual Bahia."
+  },
+  {
+    "category": "Brasil",
+    "period": "Brasil Colônia",
+    "difficulty": "Médio",
+    "question": "Qual produto teve papel central na economia colonial do Nordeste nos séculos XVI e XVII?",
+    "options": ["Café", "Borracha", "Açúcar", "Algodão"],
+    "correctAnswer": "Açúcar",
+    "explanation": "A produção açucareira organizou grandes propriedades e utilizou amplamente trabalho escravizado."
+  },
+  {
+    "category": "Brasil",
+    "period": "Brasil Colônia",
+    "difficulty": "Médio",
+    "question": "Qual era o principal objetivo das capitanias hereditárias?",
+    "options": ["Industrializar a colônia", "Dividir e administrar o território", "Abolir a escravidão", "Criar universidades"],
+    "correctAnswer": "Dividir e administrar o território",
+    "explanation": "Portugal dividiu o território em faixas entregues a donatários para estimular ocupação e defesa."
+  },
+  {
+    "category": "Brasil",
+    "period": "Brasil Colônia",
+    "difficulty": "Médio",
+    "question": "Quem foi o principal líder associado ao Quilombo dos Palmares?",
+    "options": ["Zumbi", "Tiradentes", "José Bonifácio", "Frei Caneca"],
+    "correctAnswer": "Zumbi",
+    "explanation": "Zumbi tornou-se símbolo da resistência negra e da luta contra a escravidão no Brasil colonial."
+  },
+  {
+    "category": "Brasil",
+    "period": "Mineração",
+    "difficulty": "Médio",
+    "question": "Em qual região a mineração de ouro se destacou no século XVIII?",
+    "options": ["Pampas", "Minas Gerais", "Amazônia", "Sertão nordestino"],
+    "correctAnswer": "Minas Gerais",
+    "explanation": "A descoberta de ouro impulsionou a ocupação de Minas Gerais e deslocou o eixo econômico da colônia."
+  },
+  {
+    "category": "Brasil",
+    "period": "Revoltas Coloniais",
+    "difficulty": "Médio",
+    "question": "Qual movimento de 1789 defendia a separação de Minas Gerais de Portugal?",
+    "options": ["Cabanagem", "Inconfidência Mineira", "Balaiada", "Sabinada"],
+    "correctAnswer": "Inconfidência Mineira",
+    "explanation": "O movimento foi influenciado por ideias iluministas e reagiu à cobrança de impostos portugueses."
+  },
+  {
+    "category": "Brasil",
+    "period": "Independência",
+    "difficulty": "Fácil",
+    "question": "Quem proclamou a Independência do Brasil em 1822?",
+    "options": ["Dom João VI", "Dom Pedro I", "Dom Pedro II", "Deodoro da Fonseca"],
+    "correctAnswer": "Dom Pedro I",
+    "explanation": "Dom Pedro declarou a separação política de Portugal em 7 de setembro de 1822."
+  },
+  {
+    "category": "Brasil",
+    "period": "Primeiro Reinado",
+    "difficulty": "Médio",
+    "question": "Qual foi a primeira Constituição brasileira?",
+    "options": ["Constituição de 1824", "Constituição de 1891", "Constituição de 1934", "Constituição de 1988"],
+    "correctAnswer": "Constituição de 1824",
+    "explanation": "Outorgada por Dom Pedro I, ela instituiu o Poder Moderador e manteve a monarquia."
+  },
+  {
+    "category": "Brasil",
+    "period": "Período Regencial",
+    "difficulty": "Difícil",
+    "question": "Qual revolta regencial ocorreu na província do Pará?",
+    "options": ["Farroupilha", "Cabanagem", "Sabinada", "Revolta dos Malês"],
+    "correctAnswer": "Cabanagem",
+    "explanation": "A Cabanagem ocorreu no Pará entre 1835 e 1840 e teve forte participação popular."
+  },
+  {
+    "category": "Brasil",
+    "period": "Segundo Reinado",
+    "difficulty": "Médio",
+    "question": "Qual produto liderou as exportações brasileiras durante grande parte do Segundo Reinado?",
+    "options": ["Café", "Açúcar", "Ouro", "Borracha"],
+    "correctAnswer": "Café",
+    "explanation": "O café expandiu-se principalmente pelo Sudeste e tornou-se a base da economia imperial."
+  },
+  {
+    "category": "Brasil",
+    "period": "Abolição",
+    "difficulty": "Fácil",
+    "question": "Qual lei aboliu oficialmente a escravidão no Brasil?",
+    "options": ["Lei do Ventre Livre", "Lei Eusébio de Queirós", "Lei Áurea", "Lei dos Sexagenários"],
+    "correctAnswer": "Lei Áurea",
+    "explanation": "A Lei Áurea foi assinada pela princesa Isabel em 13 de maio de 1888."
+  },
+  {
+    "category": "Brasil",
+    "period": "República",
+    "difficulty": "Fácil",
+    "question": "Quem liderou o movimento que proclamou a República em 1889?",
+    "options": ["Floriano Peixoto", "Deodoro da Fonseca", "Prudente de Morais", "Campos Sales"],
+    "correctAnswer": "Deodoro da Fonseca",
+    "explanation": "O marechal Deodoro da Fonseca liderou o movimento militar que derrubou a monarquia."
+  },
+  {
+    "category": "Brasil",
+    "period": "Primeira República",
+    "difficulty": "Médio",
+    "question": "O que caracterizava a política do café com leite?",
+    "options": ["Aliança entre elites de São Paulo e Minas Gerais", "União entre operários e camponeses", "Domínio político do Norte", "Retorno da monarquia"],
+    "correctAnswer": "Aliança entre elites de São Paulo e Minas Gerais",
+    "explanation": "A expressão representa a influência das oligarquias paulista e mineira na política nacional."
+  },
+  {
+    "category": "Brasil",
+    "period": "Primeira República",
+    "difficulty": "Médio",
+    "question": "Em qual região ocorreu a Guerra de Canudos?",
+    "options": ["Interior da Bahia", "Litoral de Pernambuco", "Sul de Minas Gerais", "Oeste de São Paulo"],
+    "correctAnswer": "Interior da Bahia",
+    "explanation": "A comunidade de Canudos, liderada por Antônio Conselheiro, foi destruída pelo Exército em 1897."
+  },
+  {
+    "category": "Brasil",
+    "period": "Era Vargas",
+    "difficulty": "Fácil",
+    "question": "Quem chegou ao poder após a Revolução de 1930?",
+    "options": ["Juscelino Kubitschek", "Getúlio Vargas", "Eurico Gaspar Dutra", "Jânio Quadros"],
+    "correctAnswer": "Getúlio Vargas",
+    "explanation": "A Revolução de 1930 encerrou a Primeira República e levou Getúlio Vargas ao governo."
+  },
+  {
+    "category": "Brasil",
+    "period": "Era Vargas",
+    "difficulty": "Médio",
+    "question": "Como ficou conhecido o regime autoritário implantado por Vargas em 1937?",
+    "options": ["República da Espada", "Estado Novo", "Nova República", "Governo Provisório"],
+    "correctAnswer": "Estado Novo",
+    "explanation": "O Estado Novo durou de 1937 a 1945 e concentrou poderes no Executivo."
+  },
+  {
+    "category": "Brasil",
+    "period": "República Populista",
+    "difficulty": "Médio",
+    "question": "Qual presidente ficou associado ao lema “50 anos em 5”?",
+    "options": ["João Goulart", "Juscelino Kubitschek", "Jânio Quadros", "Getúlio Vargas"],
+    "correctAnswer": "Juscelino Kubitschek",
+    "explanation": "O lema sintetizava o Plano de Metas e a proposta desenvolvimentista de JK."
+  },
+  {
+    "category": "Brasil",
+    "period": "República Populista",
+    "difficulty": "Fácil",
+    "question": "Qual cidade foi inaugurada como nova capital do Brasil em 1960?",
+    "options": ["Goiânia", "Brasília", "Belo Horizonte", "Salvador"],
+    "correctAnswer": "Brasília",
+    "explanation": "Brasília foi construída durante o governo JK e inaugurada em 21 de abril de 1960."
+  },
+  {
+    "category": "Brasil",
+    "period": "Ditadura Militar",
+    "difficulty": "Médio",
+    "question": "Em que ano ocorreu o golpe que iniciou a Ditadura Militar no Brasil?",
+    "options": ["1954", "1961", "1964", "1968"],
+    "correctAnswer": "1964",
+    "explanation": "O golpe de 1964 depôs João Goulart e iniciou um regime que durou até 1985."
+  },
+  {
+    "category": "Brasil",
+    "period": "Ditadura Militar",
+    "difficulty": "Difícil",
+    "question": "Qual ato institucional de 1968 ampliou a repressão e permitiu o fechamento do Congresso?",
+    "options": ["AI-1", "AI-2", "AI-5", "AI-12"],
+    "correctAnswer": "AI-5",
+    "explanation": "O AI-5 aprofundou o autoritarismo, suspendeu garantias e ampliou a repressão política."
+  },
+  {
+    "category": "Brasil",
+    "period": "Redemocratização",
+    "difficulty": "Médio",
+    "question": "Qual movimento defendeu eleições presidenciais diretas em 1984?",
+    "options": ["Queremismo", "Diretas Já", "Tenentismo", "Integralismo"],
+    "correctAnswer": "Diretas Já",
+    "explanation": "As Diretas Já mobilizaram milhões de brasileiros pelo retorno do voto direto para presidente."
+  },
+  {
+    "category": "Brasil",
+    "period": "Nova República",
+    "difficulty": "Fácil",
+    "question": "Em que ano foi promulgada a atual Constituição brasileira?",
+    "options": ["1967", "1985", "1988", "1990"],
+    "correctAnswer": "1988",
+    "explanation": "A Constituição de 1988 consolidou direitos e marcou a redemocratização brasileira."
+  },
+  {
+    "category": "Brasil",
+    "period": "Nova República",
+    "difficulty": "Médio",
+    "question": "Qual plano econômico criou o real como moeda brasileira?",
+    "options": ["Plano Cruzado", "Plano Collor", "Plano Real", "Plano Verão"],
+    "correctAnswer": "Plano Real",
+    "explanation": "O Plano Real foi implantado em 1994 com o objetivo de controlar a hiperinflação."
+  },
+  {
+    "category": "Brasil",
+    "period": "Povos Originários",
+    "difficulty": "Médio",
+    "question": "Antes da chegada portuguesa, o território brasileiro era habitado por quê?",
+    "options": ["Um único povo indígena", "Diversos povos indígenas", "Somente povos tupis", "Nenhuma população permanente"],
+    "correctAnswer": "Diversos povos indígenas",
+    "explanation": "Centenas de povos, com línguas e culturas diferentes, viviam no território antes de 1500."
+  },
+  {
+    "category": "Mundo",
+    "period": "Antiguidade",
+    "difficulty": "Fácil",
+    "question": "Em qual região surgiu a civilização egípcia antiga?",
+    "options": ["Vale do rio Nilo", "Península Itálica", "Vale do Indo", "Mesopotâmia"],
+    "correctAnswer": "Vale do rio Nilo",
+    "explanation": "A agricultura e a vida egípcia desenvolveram-se em torno das cheias regulares do Nilo."
+  },
+  {
+    "category": "Mundo",
+    "period": "Antiguidade",
+    "difficulty": "Médio",
+    "question": "Qual povo desenvolveu a escrita cuneiforme na Mesopotâmia?",
+    "options": ["Sumérios", "Fenícios", "Persas", "Hebreus"],
+    "correctAnswer": "Sumérios",
+    "explanation": "Os sumérios registravam informações em tabuletas de argila por meio da escrita cuneiforme."
+  },
+  {
+    "category": "Mundo",
+    "period": "Grécia Antiga",
+    "difficulty": "Fácil",
+    "question": "Em qual cidade-Estado grega surgiu a democracia direta?",
+    "options": ["Esparta", "Atenas", "Corinto", "Tebas"],
+    "correctAnswer": "Atenas",
+    "explanation": "A democracia ateniense permitia a participação direta dos cidadãos, mas excluía grande parte da população."
+  },
+  {
+    "category": "Mundo",
+    "period": "Roma Antiga",
+    "difficulty": "Médio",
+    "question": "Qual foi a primeira forma de governo de Roma após a monarquia?",
+    "options": ["Império", "República", "Democracia direta", "Feudalismo"],
+    "correctAnswer": "República",
+    "explanation": "A República Romana começou tradicionalmente em 509 a.C. e antecedeu o Império."
+  },
+  {
+    "category": "Mundo",
+    "period": "Idade Média",
+    "difficulty": "Médio",
+    "question": "Qual sistema organizava grande parte das relações sociais e econômicas medievais europeias?",
+    "options": ["Capitalismo industrial", "Feudalismo", "Socialismo", "Mercantilismo"],
+    "correctAnswer": "Feudalismo",
+    "explanation": "O feudalismo baseava-se na posse da terra, em vínculos de dependência e na produção rural."
+  },
+  {
+    "category": "Mundo",
+    "period": "Renascimento",
+    "difficulty": "Fácil",
+    "question": "Em qual região europeia o Renascimento teve grande impulso inicial?",
+    "options": ["Península Itálica", "Escandinávia", "Península Ibérica", "Leste Europeu"],
+    "correctAnswer": "Península Itálica",
+    "explanation": "Cidades italianas como Florença concentraram comércio, riqueza e patrocínio artístico."
+  },
+  {
+    "category": "Mundo",
+    "period": "Reforma Religiosa",
+    "difficulty": "Médio",
+    "question": "Quem publicou as 95 teses em 1517, marco da Reforma Protestante?",
+    "options": ["João Calvino", "Martinho Lutero", "Henrique VIII", "Erasmo de Roterdã"],
+    "correctAnswer": "Martinho Lutero",
+    "explanation": "Lutero criticou práticas da Igreja Católica e iniciou um amplo movimento de reforma religiosa."
+  },
+  {
+    "category": "Mundo",
+    "period": "Expansão Marítima",
+    "difficulty": "Fácil",
+    "question": "Qual navegador chegou à América em 1492 a serviço da Espanha?",
+    "options": ["Cristóvão Colombo", "Fernão de Magalhães", "Vasco da Gama", "Américo Vespúcio"],
+    "correctAnswer": "Cristóvão Colombo",
+    "explanation": "Colombo chegou ao Caribe em 1492 durante uma viagem patrocinada pela monarquia espanhola."
+  },
+  {
+    "category": "Mundo",
+    "period": "Iluminismo",
+    "difficulty": "Médio",
+    "question": "Qual pensador iluminista defendeu a separação dos poderes?",
+    "options": ["Montesquieu", "Thomas Hobbes", "Nicolau Maquiavel", "Santo Agostinho"],
+    "correctAnswer": "Montesquieu",
+    "explanation": "Montesquieu propôs distinguir poderes Executivo, Legislativo e Judiciário."
+  },
+  {
+    "category": "Mundo",
+    "period": "Revolução Industrial",
+    "difficulty": "Fácil",
+    "question": "Em qual país começou a Primeira Revolução Industrial?",
+    "options": ["França", "Alemanha", "Inglaterra", "Estados Unidos"],
+    "correctAnswer": "Inglaterra",
+    "explanation": "A Inglaterra reuniu capitais, carvão, mercados e transformações agrícolas favoráveis à industrialização."
+  },
+  {
+    "category": "Mundo",
+    "period": "Revolução Francesa",
+    "difficulty": "Fácil",
+    "question": "Em que ano começou a Revolução Francesa?",
+    "options": ["1776", "1789", "1815", "1848"],
+    "correctAnswer": "1789",
+    "explanation": "A tomada da Bastilha, em 14 de julho de 1789, tornou-se símbolo do início da Revolução."
+  },
+  {
+    "category": "Mundo",
+    "period": "Independências",
+    "difficulty": "Fácil",
+    "question": "Em que ano as Treze Colônias declararam independência da Inglaterra?",
+    "options": ["1492", "1688", "1776", "1789"],
+    "correctAnswer": "1776",
+    "explanation": "A Declaração de Independência dos Estados Unidos foi aprovada em 4 de julho de 1776."
+  },
+  {
+    "category": "Mundo",
+    "period": "Era Napoleônica",
+    "difficulty": "Médio",
+    "question": "Qual líder francês foi derrotado definitivamente na Batalha de Waterloo?",
+    "options": ["Luís XVI", "Napoleão Bonaparte", "Robespierre", "Luís XIV"],
+    "correctAnswer": "Napoleão Bonaparte",
+    "explanation": "A derrota de Napoleão em Waterloo, em 1815, encerrou seu retorno ao poder."
+  },
+  {
+    "category": "Mundo",
+    "period": "Imperialismo",
+    "difficulty": "Médio",
+    "question": "A Conferência de Berlim relacionou-se principalmente à partilha de qual continente?",
+    "options": ["África", "América", "Europa", "Oceania"],
+    "correctAnswer": "África",
+    "explanation": "Entre 1884 e 1885, potências europeias estabeleceram regras para a ocupação colonial da África."
+  },
+  {
+    "category": "Mundo",
+    "period": "Primeira Guerra Mundial",
+    "difficulty": "Fácil",
+    "question": "Qual acontecimento serviu de estopim para a Primeira Guerra Mundial?",
+    "options": ["Queda da Bastilha", "Assassinato do arquiduque Francisco Ferdinando", "Invasão da Polônia", "Revolução Russa"],
+    "correctAnswer": "Assassinato do arquiduque Francisco Ferdinando",
+    "explanation": "O assassinato em Sarajevo, em 1914, acionou alianças e tensões acumuladas na Europa."
+  },
+  {
+    "category": "Mundo",
+    "period": "Revolução Russa",
+    "difficulty": "Médio",
+    "question": "Qual grupo liderado por Lênin tomou o poder na Rússia em outubro de 1917?",
+    "options": ["Bolcheviques", "Mencheviques", "Liberais", "Monarquistas"],
+    "correctAnswer": "Bolcheviques",
+    "explanation": "Os bolcheviques derrubaram o Governo Provisório e iniciaram a construção de um Estado socialista."
+  },
+  {
+    "category": "Mundo",
+    "period": "Entre-Guerras",
+    "difficulty": "Médio",
+    "question": "Qual crise econômica começou com a quebra da Bolsa de Nova York em 1929?",
+    "options": ["Grande Depressão", "Crise do Petróleo", "Pânico de 1873", "Crise dos Mísseis"],
+    "correctAnswer": "Grande Depressão",
+    "explanation": "A crise de 1929 provocou falências, desemprego e recessão em vários países."
+  },
+  {
+    "category": "Mundo",
+    "period": "Segunda Guerra Mundial",
+    "difficulty": "Fácil",
+    "question": "Qual invasão marcou o início da Segunda Guerra Mundial na Europa?",
+    "options": ["Invasão da França", "Invasão da Polônia", "Invasão da União Soviética", "Invasão da Itália"],
+    "correctAnswer": "Invasão da Polônia",
+    "explanation": "A Alemanha invadiu a Polônia em setembro de 1939, levando França e Reino Unido a declarar guerra."
+  },
+  {
+    "category": "Mundo",
+    "period": "Segunda Guerra Mundial",
+    "difficulty": "Médio",
+    "question": "Qual organização internacional foi fundada em 1945 para promover cooperação e paz?",
+    "options": ["OTAN", "ONU", "União Europeia", "Liga Hanseática"],
+    "correctAnswer": "ONU",
+    "explanation": "A Organização das Nações Unidas foi criada após a guerra para promover diálogo e cooperação internacional."
+  },
+  {
+    "category": "Mundo",
+    "period": "Guerra Fria",
+    "difficulty": "Fácil",
+    "question": "Quais potências lideraram os blocos rivais da Guerra Fria?",
+    "options": ["Estados Unidos e União Soviética", "França e Alemanha", "China e Japão", "Índia e Paquistão"],
+    "correctAnswer": "Estados Unidos e União Soviética",
+    "explanation": "Estados Unidos e União Soviética disputaram influência global em modelos políticos e econômicos distintos."
+  },
+  {
+    "category": "Mundo",
+    "period": "Guerra Fria",
+    "difficulty": "Médio",
+    "question": "Em que ano caiu o Muro de Berlim?",
+    "options": ["1961", "1975", "1989", "1991"],
+    "correctAnswer": "1989",
+    "explanation": "A queda do muro, em novembro de 1989, simbolizou o enfraquecimento do bloco socialista europeu."
+  },
+  {
+    "category": "Mundo",
+    "period": "Descolonização",
+    "difficulty": "Médio",
+    "question": "Qual líder ficou associado à independência da Índia por meio da resistência não violenta?",
+    "options": ["Mahatma Gandhi", "Nelson Mandela", "Jawaharlal Nehru", "Ho Chi Minh"],
+    "correctAnswer": "Mahatma Gandhi",
+    "explanation": "Gandhi liderou campanhas de desobediência civil contra o domínio britânico."
+  },
+  {
+    "category": "Mundo",
+    "period": "África Contemporânea",
+    "difficulty": "Médio",
+    "question": "Qual líder sul-africano tornou-se símbolo da luta contra o apartheid?",
+    "options": ["Nelson Mandela", "Kwame Nkrumah", "Patrice Lumumba", "Jomo Kenyatta"],
+    "correctAnswer": "Nelson Mandela",
+    "explanation": "Mandela combateu o apartheid e tornou-se presidente da África do Sul em 1994."
+  },
+  {
+    "category": "Mundo",
+    "period": "China Contemporânea",
+    "difficulty": "Difícil",
+    "question": "Em que ano foi proclamada a República Popular da China?",
+    "options": ["1911", "1945", "1949", "1966"],
+    "correctAnswer": "1949",
+    "explanation": "Mao Tsé-Tung proclamou a República Popular da China em 1º de outubro de 1949."
+  },
+  {
+    "category": "Mundo",
+    "period": "Integração Europeia",
+    "difficulty": "Difícil",
+    "question": "Qual tratado de 1992 criou formalmente a União Europeia?",
+    "options": ["Tratado de Maastricht", "Tratado de Versalhes", "Tratado de Tordesilhas", "Tratado de Utrecht"],
+    "correctAnswer": "Tratado de Maastricht",
+    "explanation": "O Tratado de Maastricht estabeleceu a União Europeia e aprofundou a integração entre seus membros."
   }
 ]
