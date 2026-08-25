@@ -1,202 +1,512 @@
 [
-    {
-    "question": "Qual é o maior planeta do Sistema Solar?",
-    "options": ["Terra", "Marte", "Júpiter", "Saturno"],
-    "correctAnswer": "Júpiter"
-    },
-    {
-    "question": "Qual país é conhecido como a Terra do Sol Nascente?",
-    "options": ["China", "Coreia do Sul", "Japão", "Tailândia"],
-    "correctAnswer": "Japão"
-    },
-    {
-    "question": "Quantos continentes existem no modelo mais utilizado no Brasil?",
+  {
+    "question": "Qual é o menor osso do corpo humano?",
+    "options": ["Fêmur", "Estribo", "Rádio", "Tíbia"],
+    "correctAnswer": "Estribo"
+  },
+  {
+    "question": "Qual animal é conhecido como o 'rei da selva'?",
+    "options": ["Elefante", "Tigre", "Leão", "Gorila"],
+    "correctAnswer": "Leão"
+  },
+  {
+    "question": "Quantos dias tem um ano bissexto?",
+    "options": ["364", "365", "366", "367"],
+    "correctAnswer": "366"
+  },
+  {
+    "question": "Qual é a cor do céu em um dia limpo?",
+    "options": ["Verde", "Azul", "Vermelho", "Amarelo"],
+    "correctAnswer": "Azul"
+  },
+  {
+    "question": "Qual alimento é produzido pelas abelhas?",
+    "options": ["Leite", "Mel", "Cera", "Pólen"],
+    "correctAnswer": "Mel"
+  },
+  {
+    "question": "Qual é o formato da Terra?",
+    "options": ["Plana", "Cúbica", "Esférica", "Cilíndrica"],
+    "correctAnswer": "Esférica"
+  },
+  {
+    "question": "Qual é o principal meio de transporte aquático?",
+    "options": ["Avião", "Navio", "Trem", "Carro"],
+    "correctAnswer": "Navio"
+  },
+  {
+    "question": "Quantas patas tem um cachorro?",
+    "options": ["2", "3", "4", "5"],
+    "correctAnswer": "4"
+  },
+  {
+    "question": "Qual é a fruta mais conhecida como 'maçã do amor'?",
+    "options": ["Uva", "Morango", "Maçã", "Pera"],
+    "correctAnswer": "Maçã"
+  },
+  {
+    "question": "Qual é o nome da estrela mais próxima da Terra?",
+    "options": ["Lua", "Sol", "Vênus", "Marte"],
+    "correctAnswer": "Sol"
+  },
+  {
+    "question": "Qual sentido está associado aos olhos?",
+    "options": ["Audição", "Tato", "Visão", "Paladar"],
+    "correctAnswer": "Visão"
+  },
+  {
+    "question": "Qual instrumento usamos para ver estrelas distantes?",
+    "options": ["Microscópio", "Telescópio", "Estetoscópio", "Periscópio"],
+    "correctAnswer": "Telescópio"
+  },
+  {
+    "question": "Qual é o nome da nossa galáxia?",
+    "options": ["Andrômeda", "Via Láctea", "Triângulo", "Sombrero"],
+    "correctAnswer": "Via Láctea"
+  },
+  {
+    "question": "Qual é o esporte mais popular do mundo?",
+    "options": ["Basquete", "Vôlei", "Futebol", "Tênis"],
+    "correctAnswer": "Futebol"
+  },
+  {
+    "question": "Qual órgão é responsável por bombear o sangue?",
+    "options": ["Pulmão", "Fígado", "Coração", "Rim"],
+    "correctAnswer": "Coração"
+  },
+  {
+    "question": "Qual é a primeira letra do alfabeto?",
+    "options": ["B", "A", "C", "D"],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Qual é o animal mais rápido da terra?",
+    "options": ["Leão", "Guepardo", "Cavalo", "Coelho"],
+    "correctAnswer": "Guepardo"
+  },
+  {
+    "question": "Qual estação do ano vem depois do inverno?",
+    "options": ["Verão", "Outono", "Primavera", "Inverno"],
+    "correctAnswer": "Primavera"
+  },
+  {
+    "question": "Qual é o número de dias da semana?",
     "options": ["5", "6", "7", "8"],
-    "correctAnswer": "6"
-    },
-    {
-    "question": "Qual é o oceano de maior extensão do planeta?",
-    "options": ["Atlântico", "Índico", "Ártico", "Pacífico"],
-    "correctAnswer": "Pacífico"
-    },
-    {
-    "question": "Quem pintou a obra 'Mona Lisa'?",
-    "options": ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Michelangelo"],
-    "correctAnswer": "Leonardo da Vinci"
-    },
-    {
-    "question": "Qual é o elemento químico representado pelo símbolo O?",
-    "options": ["Ouro", "Oxigênio", "Ósmio", "Prata"],
-    "correctAnswer": "Oxigênio"
-    },
-    {
-    "question": "Qual é a capital da Argentina?",
-    "options": ["Montevidéu", "Santiago", "Buenos Aires", "Lima"],
-    "correctAnswer": "Buenos Aires"
-    },
-    {
-    "question": "Qual é o animal símbolo da Austrália?",
-    "options": ["Coala", "Canguru", "Ornitorrinco", "Emu"],
-    "correctAnswer": "Canguru"
-    },
-    {
-    "question": "Qual é o idioma oficial do Brasil?",
-    "options": ["Espanhol", "Português", "Inglês", "Francês"],
-    "correctAnswer": "Português"
-    },
-    {
-    "question": "Em que planeta fica o Monte Olimpo, o maior vulcão conhecido do Sistema Solar?",
-    "options": ["Terra", "Vênus", "Marte", "Mercúrio"],
-    "correctAnswer": "Marte"
-    },
-    {
-    "question": "Qual cientista formulou a teoria da relatividade?",
-    "options": ["Isaac Newton", "Galileu Galilei", "Albert Einstein", "Nikola Tesla"],
-    "correctAnswer": "Albert Einstein"
+    "correctAnswer": "7"
   },
   {
-    "question": "Qual é o maior deserto quente do mundo?",
-    "options": ["Atacama", "Saara", "Kalahari", "Gobi"],
-    "correctAnswer": "Saara"
+    "question": "Qual parte do corpo usamos para cheirar?",
+    "options": ["Ouvido", "Nariz", "Boca", "Pele"],
+    "correctAnswer": "Nariz"
   },
   {
-    "question": "Qual país sediou a primeira Copa do Mundo de Futebol, em 1930?",
-    "options": ["Brasil", "Itália", "Uruguai", "Argentina"],
-    "correctAnswer": "Uruguai"
+    "question": "Qual cidade é conhecida como a 'Cidade Luz'?",
+    "options": ["Londres", "Roma", "Paris", "Barcelona"],
+    "correctAnswer": "Paris"
   },
   {
-    "question": "Qual gás é mais abundante na atmosfera terrestre?",
-    "options": ["Oxigênio", "Nitrogênio", "Gás Carbônico", "Hidrogênio"],
-    "correctAnswer": "Nitrogênio"
+    "question": "Em qual idioma foi escrita a obra 'Dom Quixote'?",
+    "options": ["Italiano", "Inglês", "Espanhol", "Francês"],
+    "correctAnswer": "Espanhol"
   },
   {
-    "question": "Qual é a moeda oficial do Reino Unido?",
-    "options": ["Euro", "Libra Esterlina", "Franco", "Dólar"],
-    "correctAnswer": "Libra Esterlina"
+    "question": "Qual é o maior osso do corpo humano?",
+    "options": ["Tíbia", "Fêmur", "Úmero", "Rádio"],
+    "correctAnswer": "Fêmur"
   },
   {
-    "question": "Qual foi a primeira civilização a desenvolver um sistema de escrita conhecido?",
-    "options": ["Egípcios", "Maias", "Sumérios", "Romanos"],
-    "correctAnswer": "Sumérios"
+    "question": "Qual país tem a maior população do mundo?",
+    "options": ["EUA", "Índia", "Indonésia", "Brasil"],
+    "correctAnswer": "Índia"
   },
   {
-    "question": "Qual instrumento mede a intensidade dos terremotos?",
-    "options": ["Barômetro", "Anemômetro", "Sismógrafo", "Termômetro"],
-    "correctAnswer": "Sismógrafo"
+    "question": "Quem foi o primeiro presidente dos Estados Unidos?",
+    "options": ["Abraham Lincoln", "Thomas Jefferson", "George Washington", "John Adams"],
+    "correctAnswer": "George Washington"
   },
   {
-    "question": "Qual é o rio mais extenso do mundo segundo a maioria das medições atuais?",
-    "options": ["Rio Nilo", "Rio Amazonas", "Rio Yangtzé", "Rio Mississippi"],
-    "correctAnswer": "Rio Amazonas"
+    "question": "Qual é o maior animal do planeta?",
+    "options": ["Elefante", "Tubarão-baleia", "Baleia-azul", "Orca"],
+    "correctAnswer": "Baleia-azul"
   },
   {
-    "question": "Quem escreveu a obra 'Dom Quixote'?",
-    "options": ["Miguel de Cervantes", "William Shakespeare", "Machado de Assis", "José Saramago"],
-    "correctAnswer": "Miguel de Cervantes"
+    "question": "Qual é o ponto mais frio da Terra?",
+    "options": ["Sibéria", "Alasca", "Antártida", "Islândia"],
+    "correctAnswer": "Antártida"
   },
   {
-    "question": "Qual é o menor país do mundo em área territorial?",
-    "options": ["Mônaco", "San Marino", "Vaticano", "Liechtenstein"],
-    "correctAnswer": "Vaticano"
-  }, 
-   {
-    "question": "Qual é o único mamífero capaz de voar naturalmente?",
-    "options": ["Esquilo-voador", "Morcego", "Pinguim", "Avestruz"],
-    "correctAnswer": "Morcego"
+    "question": "Qual é o nome do maior vulcão ativo do mundo?",
+    "options": ["Vesúvio", "Krakatoa", "Mauna Loa", "Fuji"],
+    "correctAnswer": "Mauna Loa"
   },
   {
-    "question": "Em qual continente está localizado o Egito?",
-    "options": ["Ásia", "Europa", "África", "Oceania"],
-    "correctAnswer": "África"
+    "question": "Em qual país fica a Torre Eiffel?",
+    "options": ["Itália", "Alemanha", "França", "Espanha"],
+    "correctAnswer": "França"
   },
   {
-    "question": "Qual é a montanha mais alta do mundo acima do nível do mar?",
-    "options": ["Monte Kilimanjaro", "Monte Everest", "Monte Aconcágua", "Monte Denali"],
-    "correctAnswer": "Monte Everest"
+    "question": "Qual é a principal fonte de energia utilizada nas usinas nucleares?",
+    "options": ["Carvão", "Gás", "Urânio", "Petróleo"],
+    "correctAnswer": "Urânio"
   },
   {
-    "question": "Quem foi o primeiro ser humano a pisar na Lua?",
-    "options": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "John Glenn"],
-    "correctAnswer": "Neil Armstrong"
+    "question": "Quem inventou a lâmpada elétrica?",
+    "options": ["Nikola Tesla", "Albert Einstein", "Thomas Edison", "Graham Bell"],
+    "correctAnswer": "Thomas Edison"
   },
   {
-    "question": "Qual país é famoso por ter inventado a pizza moderna?",
-    "options": ["Grécia", "França", "Itália", "Espanha"],
+    "question": "Qual é a maior floresta tropical do mundo?",
+    "options": ["Congo", "Amazônia", "Bornéu", "Sumatra"],
+    "correctAnswer": "Amazônia"
+  },
+  {
+    "question": "Qual país tem a forma de uma bota?",
+    "options": ["Espanha", "Itália", "França", "Grécia"],
     "correctAnswer": "Itália"
   },
   {
-    "question": "Qual é o maior órgão do corpo humano?",
-    "options": ["Fígado", "Pulmão", "Pele", "Cérebro"],
-    "correctAnswer": "Pele"
+    "question": "Qual elemento químico é necessário para a respiração humana?",
+    "options": ["Nitrogênio", "Oxigênio", "Carbono", "Hidrogênio"],
+    "correctAnswer": "Oxigênio"
   },
   {
-    "question": "Qual planeta é conhecido como o Planeta Vermelho?",
-    "options": ["Mercúrio", "Marte", "Júpiter", "Netuno"],
-    "correctAnswer": "Marte"
+    "question": "Qual é o maior lago de água doce do mundo em volume?",
+    "options": ["Lago Vitória", "Lago Baikal", "Lago Superior", "Mar Cáspio"],
+    "correctAnswer": "Lago Baikal"
   },
   {
-    "question": "Qual é a capital do Canadá?",
-    "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
-    "correctAnswer": "Ottawa"
+    "question": "Qual foi o primeiro satélite artificial lançado ao espaço?",
+    "options": ["Explorer 1", "Sputnik 1", "Apollo 11", "Voyager 1"],
+    "correctAnswer": "Sputnik 1"
   },
   {
-    "question": "Em que ano ocorreu a queda do Muro de Berlim?",
-    "options": ["1987", "1988", "1989", "1991"],
-    "correctAnswer": "1989"
+    "question": "Qual é a principal religião da Índia?",
+    "options": ["Budismo", "Islamismo", "Hinduísmo", "Cristianismo"],
+    "correctAnswer": "Hinduísmo"
   },
   {
-    "question": "Qual é o metal líquido à temperatura ambiente?",
-    "options": ["Ferro", "Mercúrio", "Alumínio", "Cobre"],
-    "correctAnswer": "Mercúrio"
-  },
-    {
-    "question": "Qual país possui o maior número de ilhas do mundo?",
-    "options": ["Indonésia", "Canadá", "Suécia", "Filipinas"],
-    "correctAnswer": "Suécia"
+    "question": "Quem pintou o teto da Capela Sistina?",
+    "options": ["Leonardo da Vinci", "Michelangelo", "Rafael", "Donatello"],
+    "correctAnswer": "Michelangelo"
   },
   {
-    "question": "Qual é a velocidade aproximada da luz no vácuo?",
-    "options": ["150 mil km/s", "200 mil km/s", "300 mil km/s", "450 mil km/s"],
-    "correctAnswer": "300 mil km/s"
+    "question": "Qual é o nome do maior oceano da Terra?",
+    "options": ["Atlântico", "Índico", "Pacífico", "Glacial Ártico"],
+    "correctAnswer": "Pacífico"
   },
   {
-    "question": "Quem foi o autor da teoria da seleção natural?",
-    "options": ["Gregor Mendel", "Louis Pasteur", "Charles Darwin", "James Watson"],
-    "correctAnswer": "Charles Darwin"
+    "question": "Qual é o animal símbolo do Canadá?",
+    "options": ["Urso-pardo", "Lobo", "Castor", "Alce"],
+    "correctAnswer": "Castor"
   },
   {
-    "question": "Qual país abriga a cidade de Petra, esculpida em rochas?",
-    "options": ["Israel", "Egito", "Jordânia", "Síria"],
+    "question": "Em que país se encontra a depressão mais profunda da Terra emersa (Mar Morto)?",
+    "options": ["Israel", "Egito", "Turquia", "Jordânia"],
     "correctAnswer": "Jordânia"
   },
   {
-    "question": "Qual elemento químico possui o símbolo Ag?",
-    "options": ["Ouro", "Argônio", "Prata", "Alumínio"],
-    "correctAnswer": "Prata"
+    "question": "Qual é o único planeta anão que possui uma órbita maior que a de Netuno?",
+    "options": ["Ceres", "Eris", "Haumea", "Plutão"],
+    "correctAnswer": "Eris"
   },
   {
-    "question": "Qual é o maior arquipélago do planeta?",
-    "options": ["Filipinas", "Japão", "Indonésia", "Maldivas"],
+    "question": "Qual foi a primeira dinastia a unificar o Egito Antigo?",
+    "options": ["Dinastia IV", "Dinastia I", "Dinastia XVIII", "Dinastia Ptolomaica"],
+    "correctAnswer": "Dinastia I"
+  },
+  {
+    "question": "Qual é o nome da partícula subatômica que possui carga positiva?",
+    "options": ["Elétron", "Nêutron", "Próton", "Pósitron"],
+    "correctAnswer": "Próton"
+  },
+  {
+    "question": "Qual é o ponto mais alto da África?",
+    "options": ["Monte Camarões", "Monte Quênia", "Monte Kilimanjaro", "Monte Ras Dashen"],
+    "correctAnswer": "Monte Kilimanjaro"
+  },
+  {
+    "question": "Qual é o maior império da história em extensão territorial contínua?",
+    "options": ["Império Romano", "Império Mongol", "Império Britânico", "Império Russo"],
+    "correctAnswer": "Império Mongol"
+  },
+  {
+    "question": "Qual cientista descobriu a penicilina?",
+    "options": ["Louis Pasteur", "Alexander Fleming", "Robert Koch", "Joseph Lister"],
+    "correctAnswer": "Alexander Fleming"
+  },
+  {
+    "question": "Qual é a moeda oficial do Japão?",
+    "options": ["Won", "Yuan", "Iene", "Ringgit"],
+    "correctAnswer": "Iene"
+  },
+  {
+    "question": "Em qual cidade aconteceu a Conferência de Potsdam em 1945?",
+    "options": ["Berlim", "Potsdam", "Viena", "Moscou"],
+    "correctAnswer": "Potsdam"
+  },
+  {
+    "question": "Qual é a montanha mais alta fora da Ásia?",
+    "options": ["Monte Aconcágua", "Monte McKinley", "Monte Kilimanjaro", "Monte Elbrus"],
+    "correctAnswer": "Monte Aconcágua"
+  },
+  {
+    "question": "Quem criou o primeiro reator nuclear?",
+    "options": ["Enrico Fermi", "Robert Oppenheimer", "Niels Bohr", "Ernest Rutherford"],
+    "correctAnswer": "Enrico Fermi"
+  },
+  {
+    "question": "Qual é a língua mais antiga ainda falada no mundo?",
+    "options": ["Chinês", "Sânscrito", "Tâmil", "Hebraico"],
+    "correctAnswer": "Tâmil"
+  },
+  {
+    "question": "Qual é o único país que possui um litoral no Oceano Pacífico, Índico e Austral?",
+    "options": ["Chile", "Indonésia", "Austrália", "África do Sul"],
     "correctAnswer": "Indonésia"
   },
   {
-    "question": "Qual foi o primeiro país a conceder o direito de voto às mulheres em nível nacional?",
-    "options": ["Estados Unidos", "Nova Zelândia", "Reino Unido", "Canadá"],
+    "question": "Qual é o elemento químico mais comum no universo?",
+    "options": ["Oxigênio", "Carbono", "Nitrogênio", "Hidrogênio"],
+    "correctAnswer": "Hidrogênio"
+  },
+  {
+    "question": "Quem foi o primeiro faraó do Egito Unificado?",
+    "options": ["Ramsés II", "Tutancâmon", "Narmer (Menés)", "Khufu"],
+    "correctAnswer": "Narmer (Menés)"
+  },
+  {
+    "question": "Qual cientista propôs a teoria heliocêntrica antes de Copérnico?",
+    "options": ["Ptolomeu", "Hiparco", "Aristarco de Samos", "Eratóstenes"],
+    "correctAnswer": "Aristarco de Samos"
+  },
+  {
+    "question": "Qual país tem a maior quantidade de vulcões ativos?",
+    "options": ["Japão", "Indonésia", "Islândia", "Chile"],
+    "correctAnswer": "Indonésia"
+  },
+  {
+    "question": "Qual é o único mamífero marinho que vive em água doce?",
+    "options": ["Foca", "Peixe-boi", "Golfinho do Amazonas", "Baleia branca"],
+    "correctAnswer": "Golfinho do Amazonas"
+  },
+  {
+    "question": "Qual é a maior estrutura viva do mundo?",
+    "options": ["Floresta de algas", "Grande Barreira de Corais", "Floresta Amazônica", "Manguezais de Sundarbans"],
+    "correctAnswer": "Grande Barreira de Corais"
+  },
+  {
+    "question": "Qual filósofo grego afirmou que 'o homem é a medida de todas as coisas'?",
+    "options": ["Protágoras", "Górgias", "Platão", "Parmênides"],
+    "correctAnswer": "Protágoras"
+  },
+  {
+    "question": "Qual é a velocidade média do som no ar a 20°C?",
+    "options": ["243 m/s", "343 m/s", "443 m/s", "543 m/s"],
+    "correctAnswer": "343 m/s"
+  },
+  {
+    "question": "Qual foi a primeira civilização a utilizar a roda?",
+    "options": ["Egípcios", "Sumérios", "Chineses", "Indus"],
+    "correctAnswer": "Sumérios"
+  },
+  {
+    "question": "Qual é o maior gato selvagem da América do Sul?",
+    "options": ["Jaguatirica", "Puma", "Onça-pintada", "Lince"],
+    "correctAnswer": "Onça-pintada"
+  },
+  {
+    "question": "Qual é o ponto mais baixo da América do Norte?",
+    "options": ["Vale da Morte", "Mar Morto", "Grand Canyon", "Depressão de Danakil"],
+    "correctAnswer": "Vale da Morte"
+  },
+  {
+    "question": "Qual foi o primeiro ser vivo a orbitar a Terra?",
+    "options": ["Cão Laika", "Macaco Albert", "Cosmonauta Gagarin", "Cachorro Belka"],
+    "correctAnswer": "Cão Laika"
+  },
+  {
+    "question": "Qual é a única serpente que constrói ninho para seus ovos?",
+    "options": ["Cobra-rei", "Píton", "Cascavel", "Mamba-negra"],
+    "correctAnswer": "Cobra-rei"
+  },
+  {
+    "question": "Em que país nasceu o tango?",
+    "options": ["Brasil", "Argentina", "Uruguai", "Espanha"],
+    "correctAnswer": "Argentina"
+  },
+  {
+    "question": "Qual é o menor continente do mundo?",
+    "options": ["Europa", "Austrália", "Antártida", "África"],
+    "correctAnswer": "Austrália"
+  },
+  {
+    "question": "Qual é o maior palácio do mundo em área?",
+    "options": ["Palácio de Buckingham", "Palácio de Versalhes", "Cidade Proibida", "Palácio de Topkapi"],
+    "correctAnswer": "Cidade Proibida"
+  },
+  {
+    "question": "Qual cientista criou a primeira vacina da história?",
+    "options": ["Louis Pasteur", "Edward Jenner", "Robert Koch", "Jonas Salk"],
+    "correctAnswer": "Edward Jenner"
+  },
+  {
+    "question": "Qual é o animal mais alto do mundo?",
+    "options": ["Elefante", "Girafa", "Rinoceronte", "Alce"],
+    "correctAnswer": "Girafa"
+  },
+  {
+    "question": "Qual país tem o maior número de fusos horários?",
+    "options": ["Rússia", "EUA", "França", "China"],
+    "correctAnswer": "França"
+  },
+  {
+    "question": "Quem foi o último imperador do Brasil?",
+    "options": ["Dom Pedro I", "Dom Pedro II", "Dom João VI", "Dom Miguel"],
+    "correctAnswer": "Dom Pedro II"
+  },
+  {
+    "question": "Qual é a maior cachoeira do mundo em volume de água?",
+    "options": ["Cataratas do Niágara", "Cataratas Vitória", "Cataratas do Iguaçu", "Salto Ángel"],
+    "correctAnswer": "Cataratas do Iguaçu"
+  },
+  {
+    "question": "Qual país foi o primeiro a adotar o voto feminino?",
+    "options": ["EUA", "Reino Unido", "Nova Zelândia", "Canadá"],
     "correctAnswer": "Nova Zelândia"
   },
   {
-    "question": "Qual é a unidade básica da vida?",
-    "options": ["Átomo", "Molécula", "Célula", "Tecido"],
-    "correctAnswer": "Célula"
+    "question": "Qual é o maior carnívoro terrestre do mundo?",
+    "options": ["Urso-polar", "Leão", "Tigre-siberiano", "Urso-kodiak"],
+    "correctAnswer": "Urso-polar"
   },
   {
-    "question": "Qual planeta possui o maior número de luas conhecidas atualmente?",
-    "options": ["Júpiter", "Saturno", "Urano", "Netuno"],
-    "correctAnswer": "Saturno"
+    "question": "Qual é o único alimento que não estraga com o tempo?",
+    "options": ["Sal", "Mel", "Açúcar", "Vinagre"],
+    "correctAnswer": "Mel"
   },
   {
-    "question": "Qual filósofo escreveu a obra 'A República'?",
-    "options": ["Aristóteles", "Sócrates", "Platão", "Epicuro"],
-    "correctAnswer": "Platão"
+    "question": "Em qual país está localizada a cidade de Cartago?",
+    "options": ["Grécia", "Itália", "Tunísia", "Argélia"],
+    "correctAnswer": "Tunísia"
+  },
+  {
+    "question": "Qual é o maior templo religioso do mundo?",
+    "options": ["Templo de Angkor Wat", "Catedral de São Pedro", "Templo do Céu", "Mesquita de Meca"],
+    "correctAnswer": "Templo de Angkor Wat"
+  },
+  {
+    "question": "Qual elemento químico possui o símbolo 'W'?",
+    "options": ["Tungstênio", "Oxigênio", "Hidrogênio", "Sódio"],
+    "correctAnswer": "Tungstênio"
+  },
+  {
+    "question": "Qual é o menor pássaro do mundo?",
+    "options": ["Beija-flor-abelha", "Pintassilgo", "Chapim", "Estorninho"],
+    "correctAnswer": "Beija-flor-abelha"
+  },
+  {
+    "question": "Quem foi o fundador do Império Mongol?",
+    "options": ["Kublai Khan", "Gengis Khan", "Tamerlão", "Átila"],
+    "correctAnswer": "Gengis Khan"
+  },
+  {
+    "question": "Qual é a maior planície do mundo?",
+    "options": ["Planície Siberiana", "Planície do Ganges", "Planície Europeia", "Planície Amazônica"],
+    "correctAnswer": "Planície Siberiana"
+  },
+  {
+    "question": "Qual é o único país que pertence a todos os continentes?",
+    "options": ["Rússia", "França", "Reino Unido", "EUA"],
+    "correctAnswer": "França"
+  },
+  {
+    "question": "Qual foi a primeira mulher a ganhar um Prêmio Nobel?",
+    "options": ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Florence Nightingale"],
+    "correctAnswer": "Marie Curie"
+  },
+  {
+    "question": "Qual é o maior deserto de gelo do mundo?",
+    "options": ["Groenlândia", "Antártida", "Ártico", "Siberia"],
+    "correctAnswer": "Antártida"
+  },
+  {
+    "question": "Qual é o rio mais longo da Europa?",
+    "options": ["Rio Danúbio", "Rio Volga", "Rio Reno", "Rio Sena"],
+    "correctAnswer": "Rio Volga"
+  },
+  {
+    "question": "Quem escreveu a obra 'A Divina Comédia'?",
+    "options": ["Dante Alighieri", "Petrarca", "Boccaccio", "Ariosto"],
+    "correctAnswer": "Dante Alighieri"
+  },
+  {
+    "question": "Qual é a maior ilha do mundo?",
+    "options": ["Madagáscar", "Groenlândia", "Borneu", "Nova Guiné"],
+    "correctAnswer": "Groenlândia"
+  },
+  {
+    "question": "Qual é o único mamífero que põe ovos?",
+    "options": ["Morcego", "Ornitorrinco", "Golfinho", "Coala"],
+    "correctAnswer": "Ornitorrinco"
+  },
+  {
+    "question": "Em qual país foi inventado o papel?",
+    "options": ["Índia", "China", "Egito", "Grécia"],
+    "correctAnswer": "China"
+  },
+  {
+    "question": "Qual é o maior estádio de futebol do mundo?",
+    "options": ["Maracanã", "Wembley", "Estádio de Rungrado", "Camp Nou"],
+    "correctAnswer": "Estádio de Rungrado"
+  },
+  {
+    "question": "Qual é a flor nacional do Brasil?",
+    "options": ["Rosa", "Orquídea", "Cacto", "Hortênsia"],
+    "correctAnswer": "Orquídea"
+  },
+  {
+    "question": "Qual foi a primeira moeda a ser usada no mundo?",
+    "options": ["Dólar", "Libra", "Shekel", "Dracma"],
+    "correctAnswer": "Shekel"
+  },
+  {
+    "question": "Qual é o maior museu de arte do mundo?",
+    "options": ["Louvre", "Museu Britânico", "Metropolitan", "Hermitage"],
+    "correctAnswer": "Louvre"
+  },
+  {
+    "question": "Qual é o único planeta sem atmosfera significativa?",
+    "options": ["Mercúrio", "Lua", "Vênus", "Marte"],
+    "correctAnswer": "Mercúrio"
+  },
+  {
+    "question": "Qual foi a primeira universidade do mundo?",
+    "options": ["Universidade de Bolonha", "Universidade de Al-Karaouine", "Universidade de Oxford", "Universidade de Salamanca"],
+    "correctAnswer": "Universidade de Al-Karaouine"
+  },
+  {
+    "question": "Qual é o maior animal voador da história?",
+    "options": ["Quetzalcoatlus", "Pteranodonte", "Águia-real", "Albatroz"],
+    "correctAnswer": "Quetzalcoatlus"
+  },
+  {
+    "question": "Qual país tem a maior expectativa de vida do mundo?",
+    "options": ["Japão", "Suíça", "Mônaco", "Singapura"],
+    "correctAnswer": "Mônaco"
+  },
+  {
+    "question": "Qual é o filme mais premiado da história do Oscar?",
+    "options": ["Titanic", "Ben-Hur", "O Senhor dos Anéis", "Avatar"],
+    "correctAnswer": "O Senhor dos Anéis"
+  },
+  {
+    "question": "Qual é o maior produtor de café do mundo?",
+    "options": ["Colômbia", "Vietnã", "Brasil", "Etiópia"],
+    "correctAnswer": "Brasil"
+  },
+  {
+    "question": "Qual é a única cidade do mundo localizada em dois continentes?",
+    "options": ["Istambul", "Moscou", "Cairo", "Baku"],
+    "correctAnswer": "Istambul"
   }
 ]

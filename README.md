@@ -1,50 +1,83 @@
-# Welcome to your Expo app 👋
+# Quiz App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo de perguntas e respostas desenvolvido com React Native e Expo. O jogador responde a questões de conhecimentos gerais, acompanha sua pontuação e recebe o resultado ao final da partida.
 
-## Get started
+## Funcionalidades
 
-1. Install dependencies
+- 20 perguntas de conhecimentos gerais
+- Pontuação, barra de progresso e feedback visual
+- Indicação da resposta correta após um erro
+- Tela final com pontuação e porcentagem de acertos
+- Opção de jogar novamente
+- Layout para Android, iOS e web
+
+## Nova funcionalidade: quiz aleatório
+
+As perguntas e suas alternativas são embaralhadas com o algoritmo Fisher–Yates sempre que uma partida começa. Ao selecionar **Jogar novamente**, uma nova sequência é criada.
+
+Isso torna o jogo mais desafiador e aumenta a rejogabilidade, pois o jogador não pode depender da posição anterior das perguntas ou respostas. O algoritmo mantém os dados originais de `question.json` intactos.
+
+## Tecnologias
+
+- React Native
+- Expo SDK 54
+- Expo Router
+- TypeScript
+- JSON
+
+## Pré-requisitos
+
+- Node.js 20.19 ou superior
+- npm
+- Expo Go no celular, ou um navegador/emulador
+
+## Como executar
+
+1. Clone e acesse o projeto:
+
+   ```bash
+   git clone https://github.com/JoaquimNeto17/quiz-app.git
+   cd quiz-app
+   ```
+
+2. Instale as dependências e inicie o Expo:
 
    ```bash
    npm install
-   ```
-
-2. Start the app
-
-   ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. Escaneie o QR Code com o Expo Go ou pressione `a` para Android, `i` para iOS ou `w` para navegador.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Estrutura principal
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```text
+quiz-app/
+├── app/
+│   ├── _layout.tsx
+│   └── index.tsx
+├── components/
+│   └── QuizScreen.tsx
+├── assets/
+├── question.json
+├── app.json
+└── package.json
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Como adicionar perguntas
 
-## Learn more
+Inclua um objeto em `question.json` seguindo o formato:
 
-To learn more about developing your project with Expo, look at the following resources:
+```json
+{
+  "question": "Qual é a capital do Brasil?",
+  "options": ["Brasília", "São Paulo", "Salvador", "Curitiba"],
+  "correctAnswer": "Brasília"
+}
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+O valor de `correctAnswer` deve ser exatamente igual a uma das alternativas de `options`.
 
-## Join the community
+## Autor
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Desenvolvido por [Joaquim Neto](https://github.com/JoaquimNeto17).
